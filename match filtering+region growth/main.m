@@ -1,0 +1,15 @@
+%该函数用于展示结果
+orinimg=imread('test.tif')
+MFimg=GetMF(orinimg);%匹配滤波
+climg=centerline(orinimg);%获取血管中心线
+[xf,yf]=find(climg==1);%获得种子点的坐标
+resultimg=region(MFimg,[xf,yf],1,1.2);%区域生长
+resultimg(find(resultimg>0.5))=1;
+resultimg(find(resultimg<0.5))=0;
+resultimg=bwareaopen(resultimg,500);
+figure(1)
+imshow(MFimg)
+title('匹配滤波结果')
+figure(2)
+imshow(resultimg,[]);
+title('分割结果');
