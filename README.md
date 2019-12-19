@@ -8,7 +8,7 @@ This is our Biomedical Image Processing Course Project, we(Ruiyang Zhao, Xingyu 
 - Used the first Gaussian filter to mark the centerline; Combined the map and centerline using region-growing algorithm. 
 - Achieved 0.956 Accuracy, 0.732 Sensitivity and 0.978 Specificity 
 
-2. Deep learning method. We employed open source code: [](https://github.com/DeepTrial/Retina-VesselNet)
+2. Deep learning method. We employed open source [code]: (https://github.com/DeepTrial/Retina-VesselNet)
 
 - Used DenseUNet for segmentation. 
 - Achieved 0.953 Accuracy, 0.931 Sensitivity and 0.955 Specificity
@@ -18,7 +18,11 @@ This is our Biomedical Image Processing Course Project, we(Ruiyang Zhao, Xingyu 
 - Achieved 0.951 Accuracy, 0.684 Sensitivity and 0.977 Specificity
 
 ## Results
-- Input & GroundTruth![](https://github.com/charlotte12l/Fundus-Vascular-Segmentation/blob/master/Input.png)
+- Input & GroundTruth
 
-- Our Methods![](https://github.com/charlotte12l/Fundus-Vascular-Segmentation/blob/master/Result.png)
+![](https://github.com/charlotte12l/Fundus-Vascular-Segmentation/blob/master/Input.png)
+
+- Our Methods
+
+![](https://github.com/charlotte12l/Fundus-Vascular-Segmentation/blob/master/Result.png)
 
