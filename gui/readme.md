@@ -1,0 +1,1 @@
+- gui.m: display the segmentation results of the morphological method
